@@ -6,7 +6,7 @@ services:
     startCommand: node index.js
     envVars:
       - key: MONGO_URI
-        value: mongodb+srv://csula494:Sula040904@cluster0.ejftcbq.mongodb.net//stakeholderDB?retryWrites=true&w=majority&appName=Cluster0
+        value: mongodb+srv://csula494:Sula040904@cluster0.ejftcbq.mongodb.net/stakeholderDB?retryWrites=true&w=majority&appName=Cluster0
       - key: JWT_SECRET
         value: myverysecretkey
       - key: PORT
